@@ -20,7 +20,7 @@ def load_plugins(plugin_name):
     load.logger = logging.getLogger(plugin_name)
     spec.loader.exec_module(load)
     sys.modules["Japanese.modules." + plugin_name] = load
-    print("✥✥ 𝙹𝙰𝙿𝙰𝙽𝙴𝚂𝙴 𝚇 𝚂𝙿𝙰𝙼𝙱𝙾𝚃 𝙷𝙰𝚂 𝙸𝙼𝙿𝙾𝚁𝚃𝙴𝙳 ✥✥" + plugin_name)
+    print("✥✥ 𝚆𝙰𝙽𝙳𝙴𝚁𝙸𝙽𝙶 𝚇 𝚂𝙿𝙰𝙼𝙱𝙾𝚃 𝙷𝙰𝚂 𝙸𝙼𝙿𝙾𝚁𝚃𝙴𝙳 ✥✥" + plugin_name)
 
 
 files = glob.glob("Japanese/modules/*.py")
@@ -30,7 +30,7 @@ for name in files:
         plugin_name = patt.stem
         load_plugins(plugin_name.replace(".py", ""))
 
-print("\✥✥ 𝚠𝚊𝚗𝚍𝚎𝚛𝚒𝚗𝚐𝚜𝚘𝚞𝚕 𝚇 𝚂𝙿𝙰𝙼𝙱𝙾𝚃 𝙳𝙴𝙿𝙻𝙾𝚈𝙴𝙳 𝚂𝚄𝙲𝙲𝙴𝚂𝚂𝙵𝚄𝙻𝙻𝚈 ✥✥ ❤️🔥")
+print("\✥✥ 𝚆𝙰𝙽𝙳𝙴𝚁𝙸𝙽𝙶 𝚇 𝚂𝙿𝙰𝙼𝙱𝙾𝚃 𝙳𝙴𝙿𝙻𝙾𝚈𝙴𝙳 𝚂𝚄𝙲𝙲𝙴𝚂𝚂𝙵𝚄𝙻𝙻𝚈 ✥✥ ❤️🔥")
 
 
 async def main():
