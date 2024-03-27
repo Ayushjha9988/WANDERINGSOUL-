@@ -8,7 +8,7 @@ START_OP = [
     ],
     [
         Button.url(
-            "𝙰𝙳𝙳 𝙼𝙴 𝙸𝙽 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 🧸", "https://t.me/Nobitaa_xd?startgroup=true"
+            "𝙰𝙳𝙳 𝙼𝙴 𝙸𝙽 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 🧸", "https://t.me/Homosapienhu?startgroup=true"
         ),
     ],
     [
